@@ -4,20 +4,60 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rB-pPht_3Cf8Duxanpec-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="scuC8IseUvqoLZXomoLP-1" target="rB-pPht_3Cf8Duxanpec-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="rB-pPht_3Cf8Duxanpec-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="scuC8IseUvqoLZXomoLP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="185" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="scuC8IseUvqoLZXomoLP-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="180" height="90" as="geometry" />
+          <mxGeometry x="87.5" y="40" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="scuC8IseUvqoLZXomoLP-2" value="&lt;div&gt;Submitter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="130" y="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="150" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="scuC8IseUvqoLZXomoLP-3" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="150" width="160" height="100" as="geometry" />
+        <mxCell id="rB-pPht_3Cf8Duxanpec-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="scuC8IseUvqoLZXomoLP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="315" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rB-pPht_3Cf8Duxanpec-1" value="Submit publication for review" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="185" width="100" height="30" as="geometry" />
+        <mxCell id="scuC8IseUvqoLZXomoLP-3" value="Submit publication" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="97.5" y="150" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-3" value="Price accepted for review?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="270" width="265" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="scuC8IseUvqoLZXomoLP-3" target="scuC8IseUvqoLZXomoLP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-7" target="rB-pPht_3Cf8Duxanpec-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-7" target="rB-pPht_3Cf8Duxanpec-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-7" value="Determine price" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="440" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-15" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-10" target="rB-pPht_3Cf8Duxanpec-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-10" value="Price accepted by reviewer?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="585" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-14" target="rB-pPht_3Cf8Duxanpec-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-19" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-14" target="rB-pPht_3Cf8Duxanpec-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-14" value="&lt;div&gt;Determine new price?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-18" value="Withdraw publication" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-20" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.589;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-3" target="rB-pPht_3Cf8Duxanpec-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
