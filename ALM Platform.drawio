@@ -4,14 +4,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="scuC8IseUvqoLZXomoLP-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" vertex="1" parent="1">
+        <mxCell id="rB-pPht_3Cf8Duxanpec-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="scuC8IseUvqoLZXomoLP-1" target="rB-pPht_3Cf8Duxanpec-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scuC8IseUvqoLZXomoLP-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" parent="1" vertex="1">
           <mxGeometry x="70" y="40" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="scuC8IseUvqoLZXomoLP-2" value="&lt;div&gt;Submitter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="scuC8IseUvqoLZXomoLP-2" value="&lt;div&gt;Submitter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="130" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="scuC8IseUvqoLZXomoLP-3" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="110" y="150" width="100" height="100" as="geometry" />
+        <mxCell id="scuC8IseUvqoLZXomoLP-3" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-1" value="Submit publication for review" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="185" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
