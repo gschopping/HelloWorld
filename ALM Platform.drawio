@@ -23,7 +23,7 @@
         <mxCell id="scuC8IseUvqoLZXomoLP-3" value="Submit publication" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="97.5" y="150" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rB-pPht_3Cf8Duxanpec-3" value="Price accepted for review?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rB-pPht_3Cf8Duxanpec-3" value="Publication accepted for review?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="45" y="270" width="265" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rB-pPht_3Cf8Duxanpec-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="scuC8IseUvqoLZXomoLP-3" target="scuC8IseUvqoLZXomoLP-3">
@@ -32,13 +32,16 @@
         <mxCell id="rB-pPht_3Cf8Duxanpec-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-7" target="rB-pPht_3Cf8Duxanpec-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rB-pPht_3Cf8Duxanpec-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-7" target="rB-pPht_3Cf8Duxanpec-3">
+        <mxCell id="rB-pPht_3Cf8Duxanpec-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-3" target="rB-pPht_3Cf8Duxanpec-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rB-pPht_3Cf8Duxanpec-7" value="Determine price" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="77.5" y="440" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rB-pPht_3Cf8Duxanpec-15" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-10" target="rB-pPht_3Cf8Duxanpec-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-23" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-10" target="rB-pPht_3Cf8Duxanpec-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rB-pPht_3Cf8Duxanpec-10" value="Price accepted by reviewer?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
@@ -54,9 +57,56 @@
           <mxGeometry x="340" y="430" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rB-pPht_3Cf8Duxanpec-18" value="Withdraw publication" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="640" y="560" width="190" height="100" as="geometry" />
+          <mxGeometry x="900" y="1100" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rB-pPht_3Cf8Duxanpec-20" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.589;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-3" target="rB-pPht_3Cf8Duxanpec-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-22" value="Publication will be reviewed" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="760" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-22" target="rB-pPht_3Cf8Duxanpec-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-30" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-24" value="Review accepted?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="910" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-27" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-24" target="rB-pPht_3Cf8Duxanpec-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-26" value="Publication is published" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-33" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-28" target="rB-pPht_3Cf8Duxanpec-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-36" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-28" target="scuC8IseUvqoLZXomoLP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="171" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-28" value="&lt;div&gt;Request new reviwer?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="910" width="236" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-31" value="Still publish?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="910" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-32" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.69;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-31" target="rB-pPht_3Cf8Duxanpec-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="1072" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB-pPht_3Cf8Duxanpec-34" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.405;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rB-pPht_3Cf8Duxanpec-31" target="rB-pPht_3Cf8Duxanpec-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
